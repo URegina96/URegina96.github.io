@@ -33,24 +33,12 @@
   <input type="text" name="number" id="number"><br>
     <h1>Как Вы узнали о нас?</h1>
     </form>
-  <!--<p>Что Вы хотели бы приобрести? </p>
+  <p>Что Вы хотели бы приобрести? </p>
   <p><select name="EightiesFave">
     <option value="1" selected="selected">Мед</option>
     <option value="2">Соты</option>
     <option value="3">Воск</option>
     <option value="4" selected="selected">Прочее</option>
-  </select>
-</p>-->
-  <p>Какая ваша любимая группа восьмидесятых?
-  <select name="EightiesFave">
-    <option value="1">The Cure</option>
-    <option value="2">Cocteau Twins</option>
-    <option value="3">Tears for Fears</option>
-    <option value="4">Thompson Twins</option>
-    <option value="5">Everything But the Girl</option> 
-    <option value="6">Depeche Mode</option>
-    <option value="7">The Smiths</option>
-    <option value="8">New Order</option>
   </select>
 </p>
   <form> 
