@@ -9,6 +9,7 @@
     <img src="images/jocelyn.jpg" alt="Тут мед" />
     <!--<img src="D:\site\images/jocelyn-morales-nKMGJAy3Qps-unsplash">-->
     Photo by <a href="https://unsplash.com/es/@molnj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jocelyn Morales</a> on <a href="https://unsplash.com/photos/nKMGJAy3Qps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <img src="http://web.mindcraft.pro/images/example.png" alt="привет">
    <!-- Коменты -->
     <p>Натуральное золото  с Башкирских полей</p>
     <p><a href="https://ru.wikipedia.org/wiki/%D0%9C%D1%91%D0%B4" target="_blank">Мед</a> - это огромная польза для здоровья </p>
