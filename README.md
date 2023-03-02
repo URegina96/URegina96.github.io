@@ -33,9 +33,8 @@
   <input type="text" name="number" id="number"><br>
     <h1>Как Вы узнали о нас?</h1>
     </form>
-  <p>Что Вы хотели бы приобрести? 
-  <select name="EightiesFave" size="4" multiple>
-    <option value="2">Соты</option>
+  <p>Что Вы хотели бы приобрести? </p>
+  <p><select name="EightiesFave" size="4" multiple>
     <option value="1" selected="selected">Мед</option>
     <option value="2">Соты</option>
     <option value="3">Воск</option>
