@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
   </head>
- <body style="background-image: url(https://n1s1.elle.ru/ff/5d/ae/ff5dae5aee3a567baa0b5d3f4c6c61e2/727x527_1_d1d52dae36dbb41e5f104f55c7f52a3d@940x681_0xc0a839a4_7562002661485513605.jpeg); background-repeat: no-repeat; background-position: top center; background-attachment: fixed">
+ <body style="background-image: url(https://n1s1.elle.ru/ff/5d/ae/ff5dae5aee3a567baa0b5d3f4c6c61e2/727x527_1_d1d52dae36dbb41e5f104f55c7f52a3d@940x681_0xc0a839a4_7562002661485513605.jpeg)">
     <h1>Shifa ball</h1>
      <!-- Коменты -->
     <img src="https://b1.m24.ru/c/1634555.jpg" alt="honey">
