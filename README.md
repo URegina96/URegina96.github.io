@@ -22,12 +22,15 @@
 <li>Имеет некоторые когнитивные преимущества. Например, полифенолы в меде позитивно влияют на память.</li>
     </ul>
   <form>
+  <dt><b>Форма обратной связи</b></dt>
   Имя:<br>
   <input type="text" name="firstname" id="firstname"><br>
-  Фамилия:<br>
-  <input type="text" name="lastname" id="lastname"><br>
+  Отчество:<br>
+  <input type="text" name="surname" id="surname"><br>
+    Населенный пункт:<br>
+  <input type="text" name="Locality" id="Locality"><br>
   Телефон (пример +7 000 000 00 00):<br>
-  <input type="text" name="number" id="lastname"><br>
+  <input type="text" name="number" id="number"><br>
 </form>
   </body>
 </html>
