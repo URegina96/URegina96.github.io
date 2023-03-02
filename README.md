@@ -21,5 +21,11 @@
 <li>Помогает сократить калории, не уменьшая потребление сладкого.</li>
 <li>Имеет некоторые когнитивные преимущества. Например, полифенолы в меде позитивно влияют на память.</li>
     </ul>
+  <form>
+  Имя:<br>
+  <input type="text" name="firstname" id="firstname"><br>
+  Фамилия:<br>
+  <input type="text" name="lastname" id="lastname">
+</form>
   </body>
 </html>
