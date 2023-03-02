@@ -25,7 +25,9 @@
   Имя:<br>
   <input type="text" name="firstname" id="firstname"><br>
   Фамилия:<br>
-  <input type="text" name="lastname" id="lastname">
+  <input type="text" name="lastname" id="lastname"><br>
+  Телефон (пример +7 000 000 00 00):<br>
+  <input type="text" name="number" id="lastname"><br>
 </form>
   </body>
 </html>
