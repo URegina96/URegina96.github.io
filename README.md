@@ -38,7 +38,7 @@
     <option value="1" selected="selected">Мед</option>
     <option value="2">Соты</option>
     <option value="3">Воск</option>
-    <option value="4" selected="selected">Прочее</option>
+    <option value="4">Прочее</option>
   </select>
 </p>
   <form> 
@@ -47,6 +47,6 @@
   <input type="checkbox" name="techno">Специально искал в "интернете"<br>
   <input type="checkbox" name="rockabilly">Всегда знал)<br>
 </form>
-  <p><a href="https://ru.wikipedia.org/wiki/%D0%9C%D1%91%D0%B4" target="_blank">Ссылка на авторство</a></p>
+  <p><a href="https://ru.freepik.com/free-photo/honey-products-composition-honey-in-jar-honeycomb-tea-and-special-spoon-white-background_12875538.htm#query=%D0%BC%D0%B5%D0%B4&position=1&from_view=search&track=robertav1" target="_blank">Ссылка на авторство</a></p>
   </body>
 </html>
