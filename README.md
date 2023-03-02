@@ -33,6 +33,15 @@
   <input type="text" name="number" id="number"><br>
     <h1>Как Вы узнали о нас?</h1>
     </form>
+  <p>Что Вы хотели бы приобрести? 
+  <select name="EightiesFave" size="4" multiple>
+    <option value="2">Соты</option>
+    <option value="1" selected="selected">Мед</option>
+    <option value="2">Соты</option>
+    <option value="3">Воск</option>
+    <option value="4" selected="selected">Прочее</option>
+  </select>
+</p>
   <form> 
   <input type="checkbox" name="punk">От знакомых<br>
   <input type="checkbox" name="indie">Социальные сети<br>
