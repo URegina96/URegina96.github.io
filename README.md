@@ -5,8 +5,9 @@
   </head>
   <body>
     <h1>Shifa ball</h1>
-    <!-- Коменты -->
-    <img src="D:\site\images/jocelyn-morales-nKMGJAy3Qps-unsplash">
+     <!-- Коменты -->
+    <img src="images/jocelyn.jpg" alt="Тут мед" />
+    <!--<img src="D:\site\images/jocelyn-morales-nKMGJAy3Qps-unsplash">-->
     Photo by <a href="https://unsplash.com/es/@molnj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jocelyn Morales</a> on <a href="https://unsplash.com/photos/nKMGJAy3Qps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    <!-- Коменты -->
     <p>Натуральное золото  с Башкирских полей</p>
