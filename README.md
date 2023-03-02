@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
   </head>
-<body style="background-image: url(https://w7.pngwing.com/pngs/177/161/png-transparent-honey-bee-milk-veganism-honey-decoration-food-eating-honey.png);background-repeat: no-repeat; background-position: top center; background-size: 100%; background-attachment: fixed">
+<body style="background-image: url(https://static.insales-cdn.com/images/products/1/3042/344419298/9DC88D7B-5C65-4113-A287-7E00D7374601.jpeg);background-repeat: no-repeat; background-position: top center; background-size: 100%; background-attachment: fixed">
     <h1>Shifa ball</h1>
     <p>Натуральное золото  с Башкирских полей</p>
     <p><a href="https://ru.wikipedia.org/wiki/%D0%9C%D1%91%D0%B4" target="_blank">Мед</a> - это огромная польза для здоровья </p>
