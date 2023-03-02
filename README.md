@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
   </head>
-  <body>
+  <body style="background-image: url(3.jpg); background-repeat: no-repeat" >
     <h1>Shifa ball</h1>
      <!-- Коменты -->
     <img src="https://b1.m24.ru/c/1634555.jpg" alt="honey">
