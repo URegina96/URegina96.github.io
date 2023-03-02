@@ -31,6 +31,13 @@
   <input type="text" name="Locality" id="Locality"><br>
   Телефон (пример +7 000 000 00 00):<br>
   <input type="text" name="number" id="number"><br>
+    <h1>Как Вы узнали о нас?</h1>
+<form>
+  <input type="checkbox" name="punk">От знакомых<br>
+  <input type="checkbox" name="indie">Социальные сети<br>
+  <input type="checkbox" name="techno">Специально искал в "интернете"<br>
+  <input type="checkbox" name="rockabilly">Всегда знал)<br>
+</form>
 </form>
   </body>
 </html>
