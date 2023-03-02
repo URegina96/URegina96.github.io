@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
   </head>
-<body style="background-image: url(https://static.insales-cdn.com/images/products/1/3042/344419298/9DC88D7B-5C65-4113-A287-7E00D7374601.jpeg);background-repeat: no-repeat; background-position: top center; background-size: 100%; background-attachment: fixed">
+<body style="background-image: url(https://img.freepik.com/free-photo/honey-products-composition-honey-in-jar-honeycomb-tea-and-special-spoon-white-background_1268-16987.jpg?w=1380&t=st=1677776534~exp=1677777134~hmac=4255114ba2fb2beae8696ee60edb59895bf0f9f6afe0e6546219b8d186d519bf);background-repeat: no-repeat; background-position: top center; background-size: 100%; background-attachment: fixed">
     <h1>Shifa bal</h1>
     <p>Натуральное золото  с Башкирских полей</p>
     <p><a href="https://ru.wikipedia.org/wiki/%D0%9C%D1%91%D0%B4" target="_blank">Мед</a> - это огромная польза для здоровья </p>
@@ -32,12 +32,13 @@
   Телефон (пример +7 000 000 00 00):<br>
   <input type="text" name="number" id="number"><br>
     <h1>Как Вы узнали о нас?</h1>
+    </form>
   <form> 
   <input type="checkbox" name="punk">От знакомых<br>
   <input type="checkbox" name="indie">Социальные сети<br>
   <input type="checkbox" name="techno">Специально искал в "интернете"<br>
   <input type="checkbox" name="rockabilly">Всегда знал)<br>
 </form>
-</form>
+  <p><a href="https://ru.wikipedia.org/wiki/%D0%9C%D1%91%D0%B4" target="_blank">Ссылка на авторство</a></p>
   </body>
 </html>
