@@ -41,6 +41,9 @@
     <option value="4">Прочее</option>
   </select>
 </p>
+<body>
+  <p><img src="D:\site\images/shifa.bal.png" alt="Письма мастера дзен"></p>
+ </body>
   <form> 
   <input type="checkbox" name="punk">От знакомых<br>
   <input type="checkbox" name="indie">Социальные сети<br>
