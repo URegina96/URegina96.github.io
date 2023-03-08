@@ -1,86 +1,81 @@
- /*Контейнер для горизонтального меню сайта*/
-                                                                                          /* Ссылки вкладок Слева */
-/* Стиль вкладки */
+ 
 .tab_1 {
   position: absolute;
-  top: 100px; /*сдиваегт верхнюю раму от начала страницы */
-  background:  #c7b19c8f; /*цвет фона кнопки   */
+  top: 100px; 
+  background:  #c7b19c8f; 
    right: -10;
 }
 
-/* Стиль кнопок, которые используются для открытия содержимого вкладки */
+
 .tab_1 button {
   background-color: inherit;
-  float: none;/*то что кнопки не соединены и плавующие    */
+  float: none;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 30px 45px;/*размер горизонтального фона    */
+  padding: 30px 45px;
   transition: 0.2s;
-  background-color: #cecdcc04; /*цвет кнопки  */
-  font-size: 1.5rem;/*размер кнопки   */
+  background-color: #cecdcc04; 
+  font-size: 1.5rem;
 }
 
-/* Изменить цвет фона кнопок при наведении */
 .tab_1 button:hover {
-  background-color:  #cecdcc00; /*цвет кнопки  */
+  background-color:  #cecdcc00; 
 }
 
-/* Создать активный/текущий класс tablink */
+
 .tab_1 button.active {
   background-color: #f3e300;
 }
 
-/* Стиль содержимого вкладки */
+
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #0f0f0f00; /* Полоска на сайте, думаю что рамка и видно нижнюю часть, я обесцветила ее */
+  border: 1px solid #0f0f0f00; 
   border-top: none;
 }
 
-                                                                                          /* Ссылки вкладок Справа */
-/* Стиль вкладки */
+
 .tab_2 {
    position: absolute;
-   top: 95px; /*сдиваегт верхнюю раму от начала страницы */
-   background:  #c7b19c8f; /*цвет фона кнопки   */
+   top: 95px; 
+   background:  #c7b19c8f; 
    right: 0%;
  }
  
- /* Стиль кнопок, которые используются для открытия содержимого вкладки */
+ 
  .tab_2 button {
    background-color: inherit;
-   float: none;/*то что кнопки не соединены и плавующие    */
+   float: none;
    border: none;
    outline: none;
    cursor: pointer;
-   padding: 35px 54px;/*размер горизонтального фона    */
+   padding: 35px 54px;
    transition: 0.2s;
-   background-color: #cecdcc04; /*цвет кнопки  */
-   font-size: 1.5rem;/*размер кнопки   */
+   background-color: #cecdcc04; 
+   font-size: 1.5rem;
  }
  
- /* Изменить цвет фона кнопок при наведении */
  .tab_2 button:hover {
-   background-color:  #cecdcc00; /*цвет кнопки  */
+   background-color:  #cecdcc00; 
  }
  
- /* Создать активный/текущий класс tablink */
+ 
  .tab_2 button.active {
    background-color: #f3e300;
  }
  
- /* Стиль содержимого вкладки */
+
  .tabcontent {
    display: none;
    padding: 6px 12px;
-   border: 1px solid #0f0f0f00; /* Полоска на сайте, думаю что рамка и видно нижнюю часть, я обесцветила ее */
+   border: 1px solid #0f0f0f00; /
    border-top: none;
  }
 
 
-                                                                                             /*Контейнер с картинкой на главной */
+                                                                                             
 .image_1 {
     width: 300px;
     margin: 200px auto 0;
@@ -88,7 +83,7 @@
     border: 6px solid rgb(228, 195, 8);
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    position: absolute; /*вот тут редактируем местоположение рисунка */
+    position: absolute; 
     left: 70%;
     top: 10%;
   }
@@ -128,7 +123,7 @@
     border: 6px solid rgb(228, 195, 8);
     border-radius: 3px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    position: absolute; /*вот тут редактируем местоположение рисунка */
+    position: absolute; 
     left: 10%;
     top: 15%;
   }
@@ -160,7 +155,7 @@
     transform: rotate(4deg);
   }
 
-                                                                                                /*Контейнер с  текстом на главной*/
+                                                                                                
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
@@ -183,11 +178,11 @@ a {
 }
 
 .container {
-   padding: 277px 20px; /*сделали высоту текста*/
+   padding: 277px 20px; 
 }
 
 h1 {
-   margin-bottom: 30px; /*отступ от загшоловка текста*/
+   margin-bottom: 30px; 
    text-transform: uppercase;
 }
 
@@ -203,24 +198,24 @@ h1 {
 
 .toc li {
    position: relative;
-   margin-bottom: 20px; /*отступ между пунктами*/
-   padding-left: 50px;/*отступ от пунктов*/
-   line-height: 28px;/*отступ между пунктами*/
+   margin-bottom: 20px; 
+   padding-left: 50px;
+   line-height: 28px;
    transition: .3s linear;
 }
 
 .toc li:last-child {
-   margin-bottom: 28;/*какбудто сжатость текста*/
+   margin-bottom: 28;
 }
 
-.toc li:before { /*1 цифра */
+.toc li:before { 
    counter-increment: li;
    content: counters(li, "");
    position: absolute;
-   top: 50%;/*высота цифр */
-   margin-top: -14px;/*высота цифр от текста */
+   top: 50%;
+   margin-top: -14px;
    left: 0;
-   font-size: 14px;/*размер цифр */
+   font-size: 14px;
    width: 28px;
    height: 28px;
    text-align: center;
@@ -270,28 +265,27 @@ h1 {
 
 
 
-                                                                                             /*Контейнер c оформлением блока О нас*/
-/*Контейнер c оформлением фото О нас*/
+                                                                                             
 *, *:after {box-sizing: border-box;}
 .shadow-border {
-  width: 400px;/*размер фото*/
+  width: 400px;
   margin: 50px auto 0;
-  /*position: relative; */
-  position: absolute; /*вот тут редактируем местоположение рисунка */
+
+  position: absolute; 
   left: 70%;
   top: 20%;
 }
- .shadow-border:after {/*редактор рамки*/
+ .shadow-border:after {
   content:"";
   width: 100%;
   height: calc(100% - 20px);
   position: absolute;
-  top: 10px; /*отступ от рамки задней вверх*/
-  left: 25px;/*отступ от рамки задней влево*/
-  z-index: 1 px; /*если увеличить, то рамка свеху картинки будет*/
-  border: 5px solid #FF9B6C; /*толщина рамки задней*/
+  top: 10px; 
+  left: 25px;
+  z-index: 1 px; 
+  border: 5px solid #FF9B6C; 
 }
-.shadow-border img { /*редактор тени за картинкой*/
+.shadow-border img { 
   max-width: 100%;
   height: auto;
   display: block;
@@ -299,17 +293,17 @@ h1 {
   z-index: 2;
   box-shadow: 4px 4px 20px 0 rgba(0,0,0,.25)
 }
-/*Контейнер c оформлением цитаты о О нас*/
+
 blockquote_1 {
    background: linear-gradient(135deg, #c7b19c8f 50%,#FF9B6C 50%); 
    padding: 50px 30px;
    text-align: center;
    position: relative;
-   color: #49152C; /*цвет текста*/
+   color: #49152C; 
    padding: 30px 50px;
    font-family: 'Lato', sans-serif;
    position: absolute;
-   top: 30%; /*сдиваегт верхнюю раму от начала страницы */
+   top: 30%; 
    left: 10%;
 
    }
@@ -317,7 +311,7 @@ blockquote_1 {
    font-size: 22px;
    margin-top: 30px;
    }
-   blockquote_1 p:before {/*Значек цитаты*/
+   blockquote_1 p:before {
    content: "\201C";
    font-size: 100px;
    color: #EA6844;
@@ -330,14 +324,11 @@ blockquote_1 {
    blockquote_1 cite {
    font-style: normal;
    }
-
-                                                                                                       /* Контейнер c каталогом  */
-
-/* Первый товар */                                                                                             
+                                                                                            
 * {
    box-sizing: border-box;
 }  
-/* Контейнер c блоком самого ценника общий  */
+
 .product-item_1 { 
    width: 300px;
    text-align: center;
@@ -346,38 +337,38 @@ blockquote_1 {
    background: white;
    font-family: "Open Sans";
    transition: .3s ease-in;
-   position: absolute; /*вот тут редактируем местоположение  */
+   position: absolute; 
    left: 10%;
    top: 33%;
 }
-/* цблок с ценой (его нижнее подчеркивание) */
+
 .product-item_1:hover {
    border-bottom: 2px solid  #ec8804;
 }
-/* блок с фото  */
+
 .product-item_1 img {
    display: block;
    width: 100%;
 }
-/* блок с фоном ценника  */
+
 .product-list {
    background: #fafafa;
    padding: 15px 0;
 }
-/* блок с текстом описанием товара  */
+
 .product-list h3 {
    font-size: 18px;
    font-weight: 400;
    color: #ec8804;
    margin: 0 0 10px 0;
 }
-.price {/* блок с ценником (сами цифры) */
+.price {
    font-size: 16px;
    color:  #ec8804;
    display: block;
    margin-bottom: 12px;
 }
-.button { /* кнопка заказать  */
+.button { 
    text-decoration: none;
    display: inline-block;
    padding: 0 12px;
@@ -388,15 +379,12 @@ blockquote_1 {
    line-height: 28px;
    transition: .3s ease-in;
 }
-.product-item_1:hover .button { /* редактор кнопки заказть (его выделене при наведении)  */
-   background:#ec8804;
+.product-item_1:hover .button { 
 }
-
-/* Второй товар */ 
-* {
+ {
    box-sizing: border-box;
 }  
-/* Контейнер c блоком самого ценника общий  */
+
 .product-item_2 { 
    width: 300px;
    text-align: center;
@@ -405,29 +393,28 @@ blockquote_1 {
    background: white;
    font-family: "Open Sans";
    transition: .3s ease-in;
-   position: absolute; /*вот тут редактируем местоположение  */
+   position: absolute; 
    left: 40%;
    top: 33%;
 }
-/* цблок с ценой (его нижнее подчеркивание) */
+
 .product-item_2:hover {
    border-bottom: 2px solid  #ec8804;
 }
-/* блок с фото  */
+
 .product-item_2 img {
    display: block;
    width: 100%;
 }
-/* тут мы убираем пару блоков, так как совпадает с первым  */
-.product-item_1:hover .button { /* редактор кнопки заказть (его выделене при наведении)  */
-   background:#ec8804;
+
+.product-item_1:hover .button { 
 }
 
-/* Третий товар */ 
+
 * {
    box-sizing: border-box;
 }  
-/* Контейнер c блоком самого ценника общий  */
+
 .product-item_3 { 
    width: 300px;
    text-align: center;
@@ -436,11 +423,11 @@ blockquote_1 {
    background: white;
    font-family: "Open Sans";
    transition: .3s ease-in;
-   position: absolute; /*вот тут редактируем местоположение  */
+   position: absolute;
    left: 70%;
    top: 33%;
 }
-/* блок с ценой (его нижнее подчеркивание) */
+
 .product-item_3:hover {
    border-bottom: 2px solid  #ec8804;
 }
@@ -449,12 +436,10 @@ blockquote_1 {
    display: block;
    width: 100%;
 }
-/* тут мы убираем пару блоков, так как совпадает с первым  */
-.product-item_1:hover .button { /* редактор кнопки заказть (его выделене при наведении)  */
+
+.product-item_1:hover .button { 
    background:#ec8804;
 }
-
-                                                                                 /*Контейнер для галереи*/
 
 * {box-sizing: border-box;}
 .caption-bottom_1 {
@@ -462,7 +447,7 @@ blockquote_1 {
   margin: 50px auto 0;
   position: relative;
   border: 1px solid hsla(21, 37%, 15%, 0.3);
-  position: absolute; /*вот тут редактируем местоположение  */
+  position: absolute; 
   left: 10%;
   top: 40%;
 }
@@ -492,7 +477,7 @@ blockquote_1 {
    margin: 50px auto 0;
    position: relative;
    border: 1px solid hsla(21, 37%, 15%, 0.3);
-   position: absolute; /*вот тут редактируем местоположение  */
+   position: absolute; 
    left: 40%;
    top: 40%;
  }
@@ -517,7 +502,7 @@ blockquote_1 {
    font-family: "Open Sans", sans-serif;
    font-size: .7em;
  }
- /*Контейнер c оформлением фото Цитат*/
+
  blockquote_2 {
    margin: 0;
    background: #FFF4E0;
@@ -527,7 +512,7 @@ blockquote_1 {
    text-align: center;
    text-transform: uppercase;
    font-family: 'Lato', sans-serif;
-   position: absolute; /*вот тут редактируем местоположение  */
+   position: absolute; 
    left: 40%;
    top: 30%;
    }
@@ -564,11 +549,6 @@ blockquote_1 {
    font-weight: 300;
    }
 
-                                                                               /*Контейнер для Дополнительно*/
-
-
-                                                                                 /*Контейнер для Контакты*/
-                                                                                 /*Контейнер для Лейблы*/
 .image_lab_1{
    position: absolute;
    left: 50%;
@@ -595,7 +575,7 @@ blockquote_1 {
    right: -900px;
    top: -970px;
 }
-/*Контейнер для Кнопки Тыкни меня */
+
 .button-1 {
    color: #232323;
    background: transparent;
@@ -623,4 +603,3 @@ blockquote_1 {
 .button-1:hover:before {
    transform: translate(4px, 4px);
 }
-
